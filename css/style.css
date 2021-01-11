@@ -11,9 +11,10 @@
 	--fw-reg: 300;
 	--fw-bold: 900;
 
-	--clr-light: #fff;
-	--clr-dark: #303030;
-	--clr-accent: #fd2f2f;
+	--clr-light: #f8f8f8;
+	--clr-dark: #3e424b;
+	--clr-accent: #5887ff;
+	--clr-footer:#303030;
 
 	--fs-h1: 3rem;
 	--fs-h2: 2.25rem;
@@ -144,7 +145,7 @@ h3 {
 	font-family: var(--ff-secondary);
 	color: var(--clr-light);
 	text-transform: uppercase;
-	padding: .25em 1em;
+	padding: .25em;
 	margin-bottom: 1em;
 }
 .section__subtitle--projects {
@@ -599,7 +600,7 @@ header {
 
 /* footer */
 .footer {
-	background: #111;
+	background: var(--clr-footer);
 	color: var(--clr-accent);
 	text-align: center;
 	padding: 2.5em 0;
