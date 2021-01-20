@@ -65,7 +65,7 @@ body {
   background: var(--clr-light);
   color: var(--clr-dark);
   margin: 0;
-  font-family: var(--ff-primary);
+  font-family: var(--ff-secondary);
   line-height: 1.6;
 }
 
@@ -125,6 +125,7 @@ h3 {
 
 .section__title {
   margin-bottom: 0.25em;
+  font-family: var(--ff-primary);
 }
 
 .section__title--into {
@@ -133,13 +134,13 @@ h3 {
 
 .section__subtitle {
   font-size: var(--fs-h3);
+  font-family: var(--ff-secondary);
   margin: 0;
 }
 
 .section__subtitle--intro,
 .section__subtitle--about-me {
   background: var(--clr-accent);
-  font-family: var(--ff-secondary);
   color: var(--clr-light);
   text-transform: uppercase;
   padding: 0.25em;
@@ -147,7 +148,6 @@ h3 {
 }
 .section__subtitle--projects {
   color: var(--clr-accent);
-  font-weight: var(--fw-bold);
   margin-bottom: 2em;
 }
 
@@ -238,7 +238,7 @@ header {
       -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
   }
 }
-/* TODO dar um jeito de deixar o menu em apenas parte da tela */
+
 .nav {
   position: fixed;
   background: var(--clr-dark);
@@ -458,7 +458,6 @@ header {
   background-blend-mode: multiply;
   color: var(--clr-light);
   text-align: center;
-  font-family: var(--ff-primary);
 }
 
 .section__title--my-knowledge {
@@ -491,10 +490,6 @@ header {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .knowledge {
-    font-weight: var(--fw-bold);
   }
 
   .knowledge + .knowledge {
